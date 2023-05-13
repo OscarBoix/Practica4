@@ -1,0 +1,131 @@
+.radio-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 10;
+    -fx-padding: 0;
+}
+.radio-button .radio{
+    -fx-background-color: white;
+    -fx-border-color: grey;
+    -fx-border-radius: 20;
+    -fx-padding: 3;
+    -fx-background-insets: 1;
+    -fx-effect: innershadow(one-pass-box, rgba(0,0,0,0.5), 7, 0, 0, 0);
+}
+
+.radio-button:selected .radio{
+    -fx-background-color: #0093ff;
+    -fx-padding: 3;
+    -fx-effect: null;
+}
+
+.radio-button .dot{
+    -fx-padding: 6;
+}
+
+.radio-button:selected .dot{
+    -fx-background-color: white;
+    -fx-padding: 6;
+    -fx-background-insets: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 7, 0, 0, 2);
+}
+
+.button{
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: grey;
+    -fx-background-insets: 1;
+    -fx-border-radius: 5;
+    -fx-border-width: 1.2;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 2);
+}
+.button:hover{
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+.list-cell{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5;
+    -fx-border-color: transparent;
+    -fx-border-radius: 5;
+}
+.list-view{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-color: transparent;
+    -fx-padding: 10;
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.2), 15, 0, 0, 0);
+    -fx-background-insets: 0;
+}
+.list-view:selected{
+    -fx-padding: 10;
+    -fx-background-insets: 0;
+}
+
+.scroll-bar{
+    -fx-background-color: transparent;
+    -fx-padding: 0 0 0 1;
+}
+.track{
+    -fx-background-color: transparent;
+}
+.thumb{
+    -fx-background-color: #777777;
+    -fx-background-radius: 5;
+    -fx-border-color: transparent;
+}
+
+Text {
+ -fx-font-smoothing-type: lcd;
+ -fx-font-size: 10pt;
+}
+
+.spinner {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: grey;
+    -fx-border-radius: 5;
+    -fx-border-width: 1.2;
+    -fx-background-insets: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 2);
+}
+
+.spinner .text-field{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-insets: 1;
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+
+.spinner .decrement-arrow-button:hover {
+    -fx-background-color: #0093ff;
+    -fx-background-radius: 5 0 0 5;
+}
+
+.spinner .increment-arrow-button:hover {
+    -fx-background-color: #0093ff;
+    -fx-background-radius: 0 5 5 0;
+}
+.spinner .increment-arrow-button .increment-arrow,
+.spinner .decrement-arrow-button .decrement-arrow {
+    -fx-background-color: black;
+}
+
+.spinner .increment-arrow-button:hover .increment-arrow,
+.spinner .decrement-arrow-button:hover .decrement-arrow {
+    -fx-background-color: white;
+}
