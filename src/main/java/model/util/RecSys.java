@@ -1,6 +1,6 @@
-package util;
+package model.util;
 
-import algorithms.Algorithm;
+import model.algorithms.Algorithm;
 import model.Row;
 import model.Table;
 

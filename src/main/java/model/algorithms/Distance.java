@@ -1,4 +1,4 @@
-package algorithms;
+package model.algorithms;
 
 import java.util.List;
 

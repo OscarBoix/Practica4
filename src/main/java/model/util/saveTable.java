@@ -1,4 +1,4 @@
-package util;/*
+package model.util;/*
   Copiar y usar donde corresponda
 */
 /*    public void saveTable(Table t, String filename) throws IOException {

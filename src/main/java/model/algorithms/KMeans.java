@@ -1,11 +1,11 @@
-package algorithms;
+package model.algorithms;
 
-import exceptions.InvalidClusterNumberException;
+import model.exceptions.InvalidClusterNumberException;
 import model.Row;
 import model.RowWithLabel;
 import model.Table;
 import model.TableWithLabels;
-import util.CSVLabeledFileReader;
+import model.util.CSVLabeledFileReader;
 
 import java.io.FileWriter;
 import java.io.IOException;

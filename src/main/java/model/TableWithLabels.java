@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 public class TableWithLabels extends Table {
-    private List<RowWithLabel> rows;
-    private Map<String,Integer> labelsToIndex;
+    private final List<RowWithLabel> rows;
+    private final Map<String,Integer> labelsToIndex;
     public TableWithLabels(List<String> headers) {
         super(headers);
         labelsToIndex = new HashMap<>();
